@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj",
+        "projectName": "CompanyAplication.Business",
+        "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\CompanyAplication.DataContex.csproj": {
+                "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\CompanyAplication.DataContex.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\CompanyAplication.DataContex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\CompanyAplication.DataContex.csproj",
+        "projectName": "CompanyAplication.DataContex",
+        "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\CompanyAplication.DataContex.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.DataContex\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\CompanyAplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\CompanyAplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\CompanyAplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\CompanyAplication.Domain.csproj",
+        "projectName": "CompanyAplication.Domain",
+        "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\CompanyAplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj",
+        "projectName": "CompanyAplication.Helper",
+        "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj",
+        "projectName": "CompanyAplication",
+        "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj",
+        "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj": {
+                "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj"
+              },
+              "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj": {
+                "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

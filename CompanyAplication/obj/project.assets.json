@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CompanyAplication.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CompanyAplication.DataContex": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyAplication.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyAplication.Business.dll": {}
+        }
+      },
+      "CompanyAplication.DataContex/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CompanyAplication.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyAplication.DataContex.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyAplication.DataContex.dll": {}
+        }
+      },
+      "CompanyAplication.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CompanyAplication.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyAplication.Domain.dll": {}
+        }
+      },
+      "CompanyAplication.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CompanyAplication.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyAplication.Helper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyAplication.Business/1.0.0": {
+      "type": "project",
+      "path": "../CompanyAplication.Business/CompanyAplication.Business.csproj",
+      "msbuildProject": "../CompanyAplication.Business/CompanyAplication.Business.csproj"
+    },
+    "CompanyAplication.DataContex/1.0.0": {
+      "type": "project",
+      "path": "../CompanyAplication.DataContex/CompanyAplication.DataContex.csproj",
+      "msbuildProject": "../CompanyAplication.DataContex/CompanyAplication.DataContex.csproj"
+    },
+    "CompanyAplication.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CompanyAplication.Domain/CompanyAplication.Domain.csproj",
+      "msbuildProject": "../CompanyAplication.Domain/CompanyAplication.Domain.csproj"
+    },
+    "CompanyAplication.Helper/1.0.0": {
+      "type": "project",
+      "path": "../CompanyAplication.Helper/CompanyAplication.Helper.csproj",
+      "msbuildProject": "../CompanyAplication.Helper/CompanyAplication.Helper.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CompanyAplication.Business >= 1.0.0",
+      "CompanyAplication.Helper >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\New User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj",
+      "projectName": "CompanyAplication",
+      "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\CompanyAplication.csproj",
+      "packagesPath": "C:\\Users\\New User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\New User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj": {
+              "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Business\\CompanyAplication.Business.csproj"
+            },
+            "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj": {
+              "projectPath": "C:\\Users\\New User\\source\\repos\\CompanyAplication\\CompanyAplication.Helper\\CompanyAplication.Helper.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CompanyAplication/1.0.0": {
+        "dependencies": {
+          "CompanyAplication.Business": "1.0.0",
+          "CompanyAplication.Helper": "1.0.0"
+        },
+        "runtime": {
+          "CompanyAplication.dll": {}
+        }
+      },
+      "CompanyAplication.Business/1.0.0": {
+        "dependencies": {
+          "CompanyAplication.DataContex": "1.0.0"
+        },
+        "runtime": {
+          "CompanyAplication.Business.dll": {}
+        }
+      },
+      "CompanyAplication.DataContex/1.0.0": {
+        "dependencies": {
+          "CompanyAplication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CompanyAplication.DataContex.dll": {}
+        }
+      },
+      "CompanyAplication.Domain/1.0.0": {
+        "runtime": {
+          "CompanyAplication.Domain.dll": {}
+        }
+      },
+      "CompanyAplication.Helper/1.0.0": {
+        "runtime": {
+          "CompanyAplication.Helper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyAplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompanyAplication.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompanyAplication.DataContex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompanyAplication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompanyAplication.Helper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
